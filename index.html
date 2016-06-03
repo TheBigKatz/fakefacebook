@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Fake Facebook</title>
+    <style>
+    body {
+      margin: 0;
+      font-family: helvetica,sans-serif;
+    }
+    #content h1 {
+      text-align: center;
+      font-size: 1em;
+    }
+
+    #left-sidebar, #right-sidebar {
+      width: 20%;
+    }
+
+    #left-sidebar, #right-sidebar, #content {
+      vertical-align: top;
+    }
+
+    #footer {
+      text-align: center;
+    }
+
+    #layout {
+      border-collapse: collapse;
+      position: absolute;
+      height: 100%;
+    }
+
+    #header, #left-sidebar, #right-sidebar, #content, #footer {
+      padding: 1em;
+    }
+
+    #top-nav {
+      margin: auto;
+      width: 100%;
+    }
+
+    #header {
+      background-color: #3B5998;
+      background-image: image();
+    }
+    #header a {
+      color: white;
+    }
+    #left-sidebar {
+      background-color: #E9EBEE;
+
+    }
+
+    #right-sidebar {
+      background-color: #E9EBEE;
+    }
+
+    </style>
+  </head>
+  <body>
+    <table id="layout">
+      <tr>
+        <td id="header" colspan="3">
+          <table id="top-nav">
+          	<tr>
+              <td width=80%><img src="fblogo.png" alt="" /></td>
+          		<td><a href="#">User</a></td>
+          		<td><a href="#">Home</a></td>
+          		<td><a href="#">Find Friends</a></td>
+          	</tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td id="left-sidebar">
+          <table id="left-side-nav">
+          	<tr><td><a href="#">Home</a></td></tr>
+            <tr><td><a href="#">About</a></td></tr>
+          	<tr><td><a href="#">Clients</a></td></tr>
+          	<tr><td><a href="#">Contact Us</a></td></tr>
+          </table>
+        </td>
+        <td id="content">
+          <h1>|Update Status| |Add Photos/Videos| |Create Photo Album|</h1>
+
+          <p><strong>Andrew Katz:</strong> I am really enjoying my time so far at Digital Crafts!</p>
+
+          <h2><img src="http://www.digitalcrafts.com/sites/all/themes/digitalcrafts/images/digitalcrafts-site-logo.png" alt="" width="300px"/></h2>
+
+          <p><strong>Andrew Katz:</strong>
+
+          <blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote>
+
+          <h3>Header Level 3</h3>
+
+          <ul>
+             <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+             <li>Aliquam tincidunt mauris eu risus.</li>
+          </ul>
+
+          <pre><code>
+          #header h1 a {
+          	display: block;
+          	width: 300px;
+          	height: 80px;
+          }
+          </code></pre>
+        </td>
+        <td id="right-sidebar">
+          <dl>
+             <dt><strong>Trending</strong></dt>
+             <h1></h1>
+             <dt><strong>Kansas City Royals </strong></dt>
+             <dd>Kansas City Royal Lorenzo Cain Hits 3 Homeruns
+             agains the Yankees on Tuesday.</dd>
+             <h1></h1>
+             <dt><strong>2016 Election</strong></dt>
+             <dd>As time shorterns for Bernie Sanders, it seems like the race is going to come down to
+             Hilary Clinton and Donald Trump.</dd>
+             <h1></h1>
+             <dt><strong>Coding In Atlanta</strong></dt>
+             <dd>As part of the growing movement, Digital Crafts as emerged as one of the top coding schools in Atlanta</dd>
+             <h1></h1>
+             <dt><strong>Chicago Cubs</strong></dt>
+             <dd>The Cubs are off to the best start in there francise in 109 years.</dd>
+          </dl>
+    </table>
+  </body>
+</html>
